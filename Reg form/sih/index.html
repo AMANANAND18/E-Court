@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Case Filling Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <header>
+          <img src="./images/pngwing.com (1).png" alt="National Emblem of India" id="national-emblem">
+     </header>
+     <div class="container">
+          <h1 class="form-title">Case Filling Form</h1>
+          <form id="case-form" enctype="multipart/form-data">
+               <div class="form-input">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="age">User Age:</label>
+                    <input type="number" id="age" name="age" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="id">User ID:</label>
+                    <input type="text" id="id" name="id" required>
+               </div>
+
+               <div class="form-input">
+                    <label>Gender:</label>
+                    <div class="gender-radio">
+                         <input type="radio" id="male" name="gender" value="Male" required>
+                         <label for="male">Male</label>
+                         <input type="radio" id="female" name="gender" value="Female" required>
+                         <label for="female">Female</label>
+                         <input type="radio" id="others" name="gender" value="Others" required>
+                         <label for="others">Others</label>
+                    </div>
+               </div>
+
+               <div class="form-input">
+                    <label for="registration-date">Date of Registration:</label>
+                    <input type="date" id="registration-date" name="registration-date" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="case-type">Case Type:</label>
+                    <select id="case-type" name="case-type" required>
+                         <option value="Civil">Civil</option>
+                         <option value="Criminal">Criminal</option>
+                         <option value="Child Abuse">Child Abuse</option>
+                         <option value="Rape">Rape</option>
+                         <option value="Dowry">Dowry</option>
+                    </select>
+               </div>
+
+               <div class="form-input">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+               </div>
+
+               <div class="form-input">
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="aadhar">Aadhar Card Number:</label>
+                    <input type="text" id="aadhar" name="aadhar" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="profile-photo">User Profile Photo:</label>
+                    <input type="file" id="profile-photo" name="profile-photo" accept="image/*" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="case-number">Case Registration Number:</label>
+                    <input type="text" id="case-number" name="case-number" required>
+               </div>
+
+               <div class="form-input">
+                    <label for="case-details">Case Details:</label>
+                    <textarea id="case-details" name="case-details" rows="4" required></textarea>
+               </div>
+
+               <div class="form-input">
+                    <label for="documents">Upload Documents:</label>
+                    <input type="file" id="documents" name="documents" multiple accept=".pdf,.doc,.docx">
+
+               </div>
+               <div class="submitbutton">
+                    <button type="submit">Submit</button>
+               </div>
+          </form>
+     </div>
+     <script src="script.js"></script>
+</body>
+
+</html>

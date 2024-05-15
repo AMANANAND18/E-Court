@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(186, 231, 234);
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url(./images/BG1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(129, 232, 214);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: right;
+    margin-right: 20px;
+}
+
+#national-emblem {
+    width: 100px;
+    margin: 2rem;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2.8rem;
+    text-decoration: underline;
+}
+
+.form-input {
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+label {
+    font-size: 21px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gender-radio {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.submitbutton{
+    margin-left: 40%;
+}
+
+button {
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    width: 180px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff6600;
+}

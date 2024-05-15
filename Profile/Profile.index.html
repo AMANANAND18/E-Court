@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-image: url("bg.jpeg");
+      background-size: cover; /* Adjust this property to control how the image covers the background */
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Optional - makes the background image fixed while scrolling */
+      margin: 0; /* Remove default margin to cover the entire viewport */
+      padding: 0; /* Remove default padding to cover the entire viewport */
+    }
+    
+    /* The rest of your CSS styles go here */
+  </style>
+
+</head>
+
+  <style>
+    .profile-container {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 2rem;
+      opacity: 0.7; 
+      font-weight: bold;
+    }
+    
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      background-image: url("Profile.jpg");
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+    }
+    
+    .details-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    
+    .details-item {
+      display: flex;
+      align-items: baseline; /* Align label and value on the same baseline */
+    }
+    
+    .details-label {
+      font-weight: bold;
+      margin-right: 0.5rem; /* Add some spacing between label and value */
+    }
+    
+    .case-details-container {
+      margin-bottom: 2rem;
+      opacity: 0.7; 
+      font-weight: bold;
+    }
+    
+    .case-details-heading {
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .user-history-container {
+      margin-bottom: 2rem;
+      opacity: 0.7; 
+      font-weight: bold;
+    }
+    
+    .user-history-heading {
+      font-weight: bold;
+      
+    }
+    /* Style for the User History content */
+    .user-history-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two columns */
+      gap: 1rem; /* Spacing between items */
+  </style>
+</head>
+
+<body>
+  <div class="profile-container">
+    <div class="profile-pic"></div>
+    <div class="details-container">
+      <div class="details-item">
+        <div class="details-label">Name:</div>
+        <div class="details-value">Akshat Yadav</div>
+      </div>
+      <div class="details-item">
+        <div class="details-label">Contact no.:</div>
+        <div class="details-value">9454645833</div>
+      </div>
+      <div class="details-item">
+        <div class="details-label">Email:</div>
+        <div class="details-value">er.akshaty@gmail.com</div>
+      </div>
+      <div class="details-item">
+        <div class="details-label">User ID:</div>
+        <div class="details-value">0211CSE091</div>
+      </div>
+      <div class="details-item">
+        <div class="details-label">User Type: </div>
+        <div class="details-value">Victim</div>
+      </div>
+      <div class="details-item">
+        <div class="details-label">Age:</div>
+        <div class="details-value">21</div>
+      </div>
+      <div class="details-item">
+        <div class="details-label">Gender:</div>
+        <div class="details-value">Male</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-details-container">
+    <h2 class="case-details-heading" style="text-align: center;">Case Details</h2>
+    
+    <div class="details-item">
+      <div class="details-label">xxx :</div>
+      <div class="details-value">xxxx</div>
+    </div>
+    <div class="details-item">
+      <div class="details-label">xxx:</div>
+      <div class="details-value">xxxx</div>
+    </div>
+    <div class="details-item">
+      <div class="details-label">xxx:</div>
+      <div class="details-value">xxxx</div>
+    </div>
+  </div>
+
+  <div class="user-history-container">
+    <h2 class="user-history-heading" style="text-align: center;">User History</h2>
+    <div class="history-item">
+      <div class="history-label">xxx :</div>
+      <div class="history-value">xxxx</div>
+    </div>
+    <div class="history-item">
+      <div class="history-label">xxx:</div>
+      <div class="history-value">xxxx</div>
+    </div>
+    <div class="history-item">
+      <div class="history-label">xxx:</div>
+      <div class="history-value">xxxx</div>
+    </div>
+  </div>
+</body>
+</html>
